@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    left:25%;
+}
+
+img {
+    width:100%;
+}
+
+#pi {
+    background:#03033f; 
+}
+
+#persinf {
+    color:#bababf;
+    background:#171664;
+    width:275px;
+    padding:5px;
+    margin:0px;
+    position:absolute;
+    height: 100%;
+}
+
+#persdes {
+    position:relative;
+    left:285px;
+    width:500px;
+}
+
+hr {
+    position:relative;
+    right:215px;
+    width:500px;
+}
+
+#exp {
+    position:relative;
+    left:285px;
+    width:500px;
+}
+
+#edu {
+    position:relative;
+    left:285px;
+    width:500px;
+}
+
+#pdee{
+    background:#b9b9c0;
+}
