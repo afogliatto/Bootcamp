@@ -18,19 +18,25 @@ img {
     padding:5px;
     margin:0px;
     position:absolute;
-    height: 100%;
 }
 
 #persdes {
     position:relative;
     left:285px;
     width:500px;
+    margin-top:-40px;
+}
+
+#pde {
+    margin:2px 0px 15px 0px;
 }
 
 hr {
     position:relative;
     right:215px;
     width:500px;
+    margin:-10px 0px 0px 500px;
+    color:#bababf;
 }
 
 #exp {
@@ -47,8 +53,52 @@ hr {
 
 #pdee{
     background:#b9b9c0;
+    margin: 2px 0px 0px 0px
 }
 
 a {
     color:#bababf;
+}
+
+#hexp {
+    margin:0px 0px -18px 0px;
+}
+
+#lang {
+    position:relative;
+    left:285px;
+    width:500px;
+}
+
+#imgexp {
+    width:25px;
+    height:25px;
+    position:absolute;
+    left:120px;
+    top:0px;
+    margin:0px 0px -18px 0px;
+}
+
+#imgedu{
+    width:25px;
+    height:25px;
+    position:absolute;
+    left:110px;
+    top:0px;
+}
+
+#imglan {
+    width:25px;
+    height:25px;
+    position:absolute;
+    left:115px;
+    top:0px;
+}
+
+#imgpdes {
+    width:25px;
+    height:25px;
+    position:relative;
+    left:215px;
+    top:32px;
 }
