@@ -349,7 +349,7 @@ template {
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -367,25 +367,29 @@ Header
   left: 0;
   right: 0;
   z-index: 1030;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
 }
 .main-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 7.5px;
 }
 .main-header__nav ul {
   display: flex;
   list-style: none;
 }
 .main-header__nav a {
-  color: #FFF;
+  color: #97979b;
   font-weight: bold;
+  font-size: 12px;
   padding: 1em;
+  letter-spacing: 1.6px;
 }
 .main-header__logo {
   color: #FFF;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 /**
@@ -394,6 +398,8 @@ Articles
 .main-articles article {
   display: flex;
   align-items: center;
+  width: 850px;
+  margin-left: 25%;
 }
 .main-articles article h1 {
   font-size: 3rem;
@@ -409,6 +415,7 @@ Articles
   flex-direction: row-reverse;
 }
 
+/*Master Header*/
 .masthead {
   position: relative;
   background: url(../images/main-background.jpg);
@@ -443,13 +450,23 @@ Articles
   background-color: #ee0979;
   border: solid #ee0979 10px;
   border-radius: 50px;
+  transition: background-color border-color;
+  transition-delay: 0s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 .masthead a:hover {
   background-color: #72073b;
   border-color: #72073b;
-  transition-delay: 0s;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+}
+
+/*Footer*/
+footer {
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  padding: 50px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
