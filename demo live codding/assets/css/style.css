@@ -425,7 +425,8 @@ Articles
   color: white;
   text-align: center;
   padding: 160px;
-  margin: -100px -50px 30px -50px;
+  max-width: 1520px;
+  margin: -50px 0px 30px 0px;
 }
 .masthead h1 {
   font-family: "Catamaran", sans-serif;
@@ -467,6 +468,12 @@ footer {
   text-align: center;
   padding: 50px;
   font-weight: 400;
+}
+
+@media (max-width: 1140px) {
+  body {
+    max-width: 1140px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
