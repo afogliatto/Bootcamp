@@ -26,7 +26,6 @@ Header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7.5px;
   }
 
   &__nav{
@@ -79,10 +78,13 @@ Articles
 
 /*Master Header*/
 
-.masthead{
-  position: relative;
+.main-section {
   background:url(../images/main-background.jpg);
   background-size:cover;
+}
+
+.masthead{
+  position: relative;
   background-position-x: 50%;
   background-position-y: 50%;
   color:white;
@@ -107,7 +109,7 @@ Articles
 
   }
 
-  a{
+  .button{
     padding:25px 35px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;

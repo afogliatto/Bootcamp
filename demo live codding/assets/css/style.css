@@ -374,7 +374,6 @@ Header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 7.5px;
 }
 .main-header__nav ul {
   display: flex;
@@ -416,10 +415,13 @@ Articles
 }
 
 /*Master Header*/
-.masthead {
-  position: relative;
+.main-section {
   background: url(../images/main-background.jpg);
   background-size: cover;
+}
+
+.masthead {
+  position: relative;
   background-position-x: 50%;
   background-position-y: 50%;
   color: white;
@@ -440,7 +442,7 @@ Articles
   margin-top: 30px;
   font-weight: 800;
 }
-.masthead a {
+.masthead .button {
   padding: 25px 35px;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
@@ -456,7 +458,7 @@ Articles
   transition-duration: 1s;
   transition-timing-function: linear;
 }
-.masthead a:hover {
+.masthead .button:hover {
   background-color: #72073b;
   border-color: #72073b;
 }
